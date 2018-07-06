@@ -1,0 +1,245 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:url(file:///E|/git/projekt_slubny/foto/wedding-landing-background.png) center;
+	color:#000;
+	font-size:1.125rem;
+	line-height:1.5;
+	font-family: 'Libre Baskerville', serif;
+}
+.cover {
+	background:url(file:///E|/git/projekt_slubny/foto/wedding-landing-cover.jpg) no-repeat 70% center;
+	height:100vh;
+	display:table;
+	text-align:center;
+	width:100%;
+	
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+.text-wrapper{
+	display:table-cell;
+	vertical-align:middle;
+}
+.text {
+	    margin: 0 auto;
+    padding: .625rem;
+    color: hsla(0,0%,100%,.9);
+    background: hsla(100,0%,0%,.5);
+	    padding: 1.25rem;
+    border-radius: 4px;
+    width: 50%;
+}
+.text-info{
+	text-transform:uppercase;
+}
+.text-info::after {
+    display: block;
+    content: "";
+    background-color: #fff;
+    height: 1px;
+    width: 12.515625rem;
+    margin: .5rem auto;
+}
+h1, h2 {
+	font-family: 'Great Vibes', cursive;
+}
+.text h1 {
+    font-size: 3.15rem;
+    color: #d2ba87;
+    margin-bottom: 0;
+	
+}
+.date {
+	font-size:1.25rem;
+	letter-spacing:.15rem;
+	vertical-align:middle;
+}
+.data::before, .data::after {
+	display:inline-block;
+	content: "";
+	background-color:#fff;
+	height:1px;
+	width:1.5rem;
+	vertical-align:middle;
+	margin:0 .5rem;
+}
+.locations, .prezenty {
+	width:99%;
+	margin:1.5rem auto;
+	padding:.5rem 1rem;
+	text-align:center;
+}
+h2 {
+	font-size:3rem;
+}
+.info-lokalizacja img, .prezenty img {
+	    height: 7.5rem;
+
+}
+h1, h2, h3, ul, ol, p, img {
+    margin-bottom: 1.5rem;
+}
+.info-lokalizacja div {
+    font-family: 'Muli', sans-serif;
+}
+@media (min-width: 768px){
+.info-lokalizacja,  {
+    display: inline-block;
+    width: 25%;
+    padding: 1.5rem;
+    margin: .5rem;
+}
+}
+.program h2, .faq h2 {
+	font-family: 'Great Vibes', cursive;
+    margin-top: 1rem;
+    text-align: center;
+	padding-top:1rem;
+	
+}
+.program,  .faq, .kontakt{
+    width: 100%;
+    text-align: left;
+    background: hsla(100,0%,0%,.6);
+    color: #d2ba87;
+    font-family: 'Muli', sans-serif;
+	
+}
+.program p{
+	font-style:italic;
+}
+.program .program-wrapper {
+	width:30%;
+	margin:0 auto;
+	padding:1rem 0 1.5rem 0;
+}
+
+
+.program {
+  width: 100vw;
+  text-align: left;
+  background: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  font-family: 'Muli', sans-serif;
+}
+
+
+
+
+.program ul {
+  letter-spacing: .025rem;
+}
+
+
+
+/* =============================
+
+      LOCATIONS STYLES
+
+=============================*/
+
+.blurb img {
+  height: 7.5rem;
+}
+
+.blurb h3 {
+  font-weight: 700;
+}
+
+.blurb div {
+  font-family: 'Muli', sans-serif;
+}
+
+
+.blurb::after {
+  content: "";
+  display: block;
+  height: .1875rem;
+  width: 25vw;
+  margin: 1.5rem auto;
+  background-color: #444349;
+}
+
+
+/* =============================
+
+        GIFTS STYLES
+
+=============================*/
+
+.prezenty img {
+  height: 7.5rem;
+}
+
+.prezenty p:last-child {   /* To even out the bottom and top margins of this section. */
+  margin-bottom: 0;
+}
+.faq {
+  background: hsla(100,0%,0%,.6);;
+  color: #d2ba87;
+  width: 100vw;
+  text-align: center;
+}
+
+.faq h2 {
+  margin-top: 1rem; /* To even out top and bottom margins. */
+}
+
+.faq p {
+  font-family: 'Muli', sans-serif;
+  text-align: left;
+}
+
+.pytania-odpowiedzi-wrapper::after {
+  content: "";
+  display: block;
+  height: .1875rem;
+  width: 50vw;
+  margin: 1.5rem auto;
+  background-color: #d2ba87;
+}
+
+.pytanie {
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+
+.odpowiedz {
+  margin-bottom: 1.5rem;
+}
+
+
+/* =============================
+
+        FOOTER STYLES
+
+=============================*/
+
+footer {
+  height: 10vh;
+  width: 100vw;
+  background-color: #606060;
+  color: #fff;
+  font-family: 'Muli', sans-serif;
+  display: table;
+  text-align: center;
+  font-size: .875rem;
+}
+
+.footer-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  padding: .5rem 1rem;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer small {
+  line-height: 1.5;
+}
